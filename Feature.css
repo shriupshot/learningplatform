@@ -1,0 +1,39 @@
+.features-container {
+    border: 2px solid #0d6efd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0d6efd;
+    text-align: center;
+  }
+  
+  .divider {
+    border: 2px solid #0d6efd;
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+  .feature-card {
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease-in-out;
+    padding: 15px;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #0d6efd;
+  }
+  
+  .highlighted {
+    border: 2px solid #0d6efd;
+  }
+  

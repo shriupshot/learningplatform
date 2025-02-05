@@ -1,0 +1,40 @@
+.footer {
+    background-color: #cc29cc; /* Matching Purple Background */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .title {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  
+  .category-title {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .about-section {
+    margin-top: 30px;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info .icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  

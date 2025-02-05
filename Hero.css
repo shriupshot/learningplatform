@@ -1,0 +1,52 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Slightly lighter background */
+  }
+  
+  .hero {
+    width: 90%; /* Slightly reduced width */
+    max-width: 1000px; /* Slightly reduced max width */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #333;
+    text-align: center;
+    padding: 20px; /* Slightly reduced padding */
+    margin: 0;
+  }
+  
+  /* Hero Text with Gradient Background */
+  .hero-text {
+    background: linear-gradient(to right, #e0dcdc, #5a0c9a); /* Subtle gradient colors */
+    color: white;
+    padding: 20px; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
+  }
+  
+  .hero h1 {
+    font-size: 36px; /* Reduced font size */
+    margin-bottom: 10px;
+    cursor: pointer; /* Indicate that the text is clickable */
+    transition: color 0.3s ease;
+  }
+  
+  .hero h1:hover {
+    color: #ffe082; /* Highlight the text on hover */
+  }
+  
+  .hero p {
+    font-size: 16px; /* Reduced font size */
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  

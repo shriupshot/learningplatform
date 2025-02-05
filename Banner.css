@@ -1,0 +1,23 @@
+.banner {
+    text-align: center;
+    margin: 0; /* Remove unnecessary margins */
+    font-family: Arial, sans-serif;
+    padding-top: 10px; /* Optional: Add minimal padding if needed */
+  }
+  
+  .banner-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    text-decoration: underline;
+  }
+  
+  .banner-description {
+    font-size: 16px;
+    color: black;
+  }
+  
